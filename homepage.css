@@ -1,0 +1,407 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.navbar-nav a {
+    color: white;
+    letter-spacing: 3px;
+    font-family: 'Poppins';
+    display: flex;
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+.navbar-nav a:hover {
+    color: red;
+}
+
+.nav-item.active a {
+    color: red;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: yellow;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.nav-item {
+    margin-right: 24px;
+    font-weight: 600;
+}
+
+.tombol:hover {
+    background-color: white;
+    color: black;
+}
+
+.dropdown-menu {
+    background-color: black;
+    color: white;
+}
+
+.dropdown-menu a:hover {
+    background-color: black;
+    color: yellow;
+    text-decoration: underline;
+}
+
+.drop {
+    color: white;
+    border: none;
+    font-family: 'Poppins';
+    letter-spacing: 3px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.drop:hover {
+    color: red;
+    border: none;
+}
+
+.dropdown-menu a {
+    letter-spacing: 0;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.btn-group:hover>.dropdown-menu {
+    display: block;
+}
+
+/* akhir navbar */
+
+/* artikel tengah */
+.artikel {
+    background-color: black;
+    height: 2480px;
+}
+
+.container-dua {
+    color: white;
+}
+
+.hero:hover {
+    border: 2px solid yellow;
+}
+
+.img:hover {
+    border: 2px solid yellow;
+    color: yellow;
+}
+
+.tengah h2 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.tengah h2:hover {
+    color: yellow;
+}
+
+.sampul h2 {
+    margin-top: 250px;
+}
+
+.sampul h2:hover {
+    color: yellow;
+}
+
+.teks {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-top: 70px;
+}
+
+.tekss {
+    text-align: center;
+    font-family: 'Poppins';
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.tekss span {
+    color: yellow;
+    text-decoration: none;
+}
+
+.tekss span:hover {
+    color: white;
+    background-color: blue ;
+}
+
+.image { 
+    margin-top: 50px;
+    position: relative; 
+    width: 100%; /* for IE 6 */
+ }
+ 
+ h2 { 
+    position: absolute; 
+    top: 300px; 
+    padding-left: 20px; 
+    width: 100%; 
+    color: white;
+ }
+
+ .baca {
+     color: yellow;
+ }
+
+ /* subcontent */
+.subcontent {
+    color: white;
+}
+
+.judul {
+    letter-spacing: 2px;
+}
+
+
+.subcontent h4 {
+    font-weight: bold;
+}
+
+.card-body p {
+   color: black;
+}
+
+.card {
+    margin-right: 20px;
+    width: 700px;
+    border-radius: 0;
+    border: none;
+}
+
+.card a:hover {
+    text-decoration: none;
+}
+
+.card p:hover {
+    color: white;
+}
+
+.card-body {
+    background-color: white;
+    color: black;   
+}
+
+.card-body:hover {
+    background-color: black;
+}
+
+.card-body p {
+    color: black;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.card-second {
+    border: none;
+}
+
+.card second:hover {
+    border: 2px solid yellow;
+}
+
+.second-img {
+    border: none;
+}
+
+.second a p {
+    color: black;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.second.card-body:hover {
+    background-color: black;
+}
+
+.more a {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 30px;
+    padding-left: 500px;
+}
+
+.more a:hover {
+    color: yellow;
+}
+
+/* carousel */
+.carousel-inner {
+    height: 680px;
+    width: 1520px;
+}
+
+.carousel-caption {
+    margin-bottom: 200px;
+    color: yellow;
+    font-family: 'Poppins';
+}
+
+.carousel-caption h3 {
+    color: white;
+    padding-bottom: 0;
+    font-family: 'Poppins';
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.carousel-caption p {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.carousel-caption p:hover {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* konten 2 */
+.news {
+    background-color: white;
+    height: 500px;
+    color: black;
+    font-family: 'Poppins';
+}
+
+.jumbotron {
+    background-color: white;
+    padding-top: 70px;
+}
+
+.header {
+    color: black;
+    font-weight: 600;
+}
+
+hr {
+    height: 5px;
+    color: black;
+}
+
+.pic {
+    height: 200px;
+    width: 200px;
+}
+
+.picc {
+    display: flex;
+}
+
+.picc p {
+    padding-left: 20px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #FBD707;
+    height: 130px;
+}
+
+.judull {
+    margin-top: 40px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.deck {
+    margin-top: 30px;
+}
+
+.berita p:hover {
+    color: yellow;
+}
+
+.berita a:hover {
+    color: yellow;
+}
+
+.berita {
+    background-color: black;
+    color: white;
+}
+
+.berita p {
+    color: white;
+    text-align: justify;
+}
+
+.berita a {
+    color: white;
+}
+
+.berita h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.card-img {
+    border-radius: 0;
+}
+/* akhir konten 2 */
+
+
+/* footer */
+.section-footer {
+    background-color: black;
+    color: white;
+    font-family: 'Poppins';
+}
+
+.section-footer h5 {
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.section-footer a {
+    color: white;
+}
+
+.btn-warning {
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: black;
+    color: yellow;
+    border: 1px solid white;
+}
+/* akhir footer */
